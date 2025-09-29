@@ -18,8 +18,7 @@ Similarly if you have an idea or want to contribute, write something to the Gith
 
 The file Toliss_A32X_MCDU.mfprof should have the following hash
 
-   * SHA256: 6f9e374745fbb9042158e4b0cfe8e0446c499a4216eeec1917c291040b07868a
-
+   * SHA256: cff36cbd363136a92ef0337817665b0fdf0efe04319b39c769e780497ce3f79b
      
 ## Installation
 
