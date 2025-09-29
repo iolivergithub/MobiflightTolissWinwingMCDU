@@ -1,0 +1,3103 @@
+{
+  "Name": "Toliss_A32X_MCDU",
+  "ConfigFiles": [
+    {
+      "Label": "New file",
+      "FileName": null,
+      "ReferenceOnly": false,
+      "EmbedContent": true,
+      "ConfigItems": [
+        {
+          "Source": {
+            "SimConnectValue": {
+              "UUID": "-",
+              "Value": "",
+              "VarType": 2
+            },
+            "Type": "SimConnectSource"
+          },
+          "TestValue": {
+            "type": 1,
+            "Float64": 1.0,
+            "String": null
+          },
+          "Device": {
+            "Name": "Backlight Percentage",
+            "Address": "Backlight Percentage",
+            "Lines": [],
+            "Type": "LcdDisplay"
+          },
+          "DeviceType": "LcdDisplay",
+          "DeviceName": "Backlight Percentage",
+          "GUID": "a7d198c5-322c-451f-9ede-714a91091fc6",
+          "Active": true,
+          "Name": "New Output Config",
+          "Type": "OutputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "0",
+          "Value": "0",
+          "Status": {
+            "Source": "SIMCONNECT_NOT_AVAILABLE"
+          }
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Init",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 16",
+          "GUID": "0b5e5dce-7fc1-4f12-94f3-1945cef7dc5a",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1DirTo",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 13",
+          "GUID": "fc9c6338-a880-4434-875d-980657609863",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Prog",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 14",
+          "GUID": "d4a5ba9e-95dd-4ed4-9a7d-f81ce087cab0",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1DirTo",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 15",
+          "GUID": "dca90885-3eaa-46ed-9098-6195ec16fdbd",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Data",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 17",
+          "GUID": "fddcd86f-d26c-48ce-9ad8-591d85d64fe2",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Fpln",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 20",
+          "GUID": "85e1c7d4-5a07-4527-aca9-f22a4ed073d2",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1RadNav",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 21",
+          "GUID": "ad8e7c07-95d4-4032-be16-9361841b6574",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1FuelPred",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 22",
+          "GUID": "4dfa9a01-1d6c-43e6-861d-980fb4295bcb",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1SecFpln",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 23",
+          "GUID": "fd71695d-8efc-44ab-8a1d-015d5469997e",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1ATC",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 24",
+          "GUID": "42fcb912-c3c7-41cd-a654-249ba17cd4f8",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Menu",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 25",
+          "GUID": "5a303418-dd67-4f05-8156-7b45b904f69c",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Airport",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 27",
+          "GUID": "3d18863d-4106-43ae-a943-2f91153476a1",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1SlewLeft",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 29",
+          "GUID": "37cf27fa-8796-451d-ace9-c3a51dcc4ed5",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1SlewUp",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 30",
+          "GUID": "f11dd562-166f-4dcc-bfb6-d9ad2232faf4",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1SlewRight",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 31",
+          "GUID": "cd2a1af9-1fcf-4d9f-b5c4-de784353b205",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1SlewDown",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 32",
+          "GUID": "20329c31-3162-4f1f-a691-dbab78c6be15",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "DataRef",
+              "Path": "AirbusFBW/DUBrightness[6]",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 19",
+          "GUID": "b4ed0048-d67b-4746-b600-1bb0b978a772",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "DataRef",
+              "Path": "AirbusFBW/DUBrightness[6]",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 26",
+          "GUID": "2c97957a-6da7-4db3-b6fc-a5d0e8c8d298",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK1L",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 1",
+          "GUID": "89059dd6-1fdb-477c-bb52-b2033a2896cd",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK2L",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 2",
+          "GUID": "30e0f63e-b8f8-46b2-ba18-f7443f946b41",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK3L",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 3",
+          "GUID": "836930ab-72e5-452f-85f7-9128ad037fe1",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK4L",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 4",
+          "GUID": "49c40464-e7a7-4d68-bca7-988737e8d375",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK5L",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 5",
+          "GUID": "76b834b9-adbe-4d21-96d1-c09c605006c3",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK6L",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 6",
+          "GUID": "4d9eac8a-0ab8-47f0-a0a4-dc2f9a15896f",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK1R",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 7",
+          "GUID": "e378ca53-b514-4500-b539-b4e31aa5b5ca",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK2R",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 8",
+          "GUID": "51351a37-7105-43ba-9025-e427c66058c6",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK3R",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 9",
+          "GUID": "a3d4b299-8c13-4ecd-bb1a-247e221c4b0d",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK4R",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 10",
+          "GUID": "a8d100dd-b119-4e21-821f-06c09c213cdc",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK5R",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 11",
+          "GUID": "b162f70e-ce2e-4205-bf26-c5b08e300916",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1LSK6R",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 12",
+          "GUID": "a5210dc9-b9b0-478e-bf27-da0c73a18273",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Key1",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 33",
+          "GUID": "fe85d4ff-6043-451d-8174-f51407d58567",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Key2",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 34",
+          "GUID": "b10d075b-4532-44dc-9601-b195f64b36f4",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Key3",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 35",
+          "GUID": "e5f720de-3ac2-46a6-a896-1e1a1185851c",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Key4",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 36",
+          "GUID": "d60e6807-bf2a-400a-b676-59d27a8292df",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Key5",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 37",
+          "GUID": "0f2bd1a0-ed38-4985-a113-c9e8d4909e63",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Key6",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 38",
+          "GUID": "75d13b6b-a4a5-48c7-a5fe-131e3522b1db",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Key7",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 39",
+          "GUID": "6b0dfb0b-23f2-4886-88c7-910aa84c5d72",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Key8",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 40",
+          "GUID": "d5d68907-c32d-4b96-b62e-7e238804c033",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Key9",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 41",
+          "GUID": "391d9d90-63b0-4b15-acbc-49d92d521b32",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1Key0",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 43",
+          "GUID": "28c8ab1c-5b56-4394-a9a3-21bffba3d731",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyDecimal",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 42",
+          "GUID": "3c701b82-3e35-4189-9826-a1765b715fa6",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyPM",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 44",
+          "GUID": "6d5f7161-80ba-4012-9321-f5366cfe3e10",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyA",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 45",
+          "GUID": "36d1aed6-97e9-48e0-b788-d874ef04e7ca",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyB",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 46",
+          "GUID": "9fca32bd-133b-4153-9031-3ec50d39d64c",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyC",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 47",
+          "GUID": "1d3f622e-228a-4705-b93c-36905dede5fc",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyD",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 48",
+          "GUID": "d052590a-396e-4426-bfc5-1bae77c1ee95",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyE",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 49",
+          "GUID": "953e412a-7152-4a38-90ff-a02f2cf31767",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyF",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 50",
+          "GUID": "72674711-dcf1-461f-8164-e8f139a298dc",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyG",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 51",
+          "GUID": "881914c8-f044-407b-959a-5b63b7692f59",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyH",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 52",
+          "GUID": "93640ca1-a98e-4c9c-8fbb-4770f7ec4ae1",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyI",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 53",
+          "GUID": "66b46e41-daf3-4802-9ab8-1d2d3b3d450b",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyJ",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 54",
+          "GUID": "9406f20f-8305-41a2-856b-21b96fbb1c40",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyK",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 55",
+          "GUID": "581b8b8b-f1e0-4106-b5fe-d9801acf150e",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyL",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 56",
+          "GUID": "02bd1aee-3050-48ca-9953-6e1d862d94a7",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyM",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 57",
+          "GUID": "6be62ec2-38c5-4223-9ccf-6734c467dc66",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyN",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 58",
+          "GUID": "f7f994b9-c280-4ea4-90cd-7bb7f942be96",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyO",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 59",
+          "GUID": "d5d46167-5446-47da-8ee5-432bd96f2972",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyP",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 60",
+          "GUID": "6b866b71-448d-4905-92f6-1fc6dfaed1b5",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyQ",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 61",
+          "GUID": "f6dd9782-1d83-4859-aafb-8f91c3036afc",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyR",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 62",
+          "GUID": "6cec5f74-8867-4615-aed6-b41eafdd056a",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyS",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 63",
+          "GUID": "8056bd2a-eeea-4e40-9d8d-6302f1484e67",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyT",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 64",
+          "GUID": "323de45c-5e6e-492d-9686-06f87a63ace8",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyU",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 65",
+          "GUID": "bcfb9da7-9bab-44f4-8e05-344a179f7eac",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyV",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 66",
+          "GUID": "3593fdf9-b0ca-459c-9809-f8624f9335a8",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyW",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 67",
+          "GUID": "7e529a15-521a-490f-a472-cd32111553af",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyX",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 68",
+          "GUID": "710a3a0b-ec99-4423-87d5-3489c7def55b",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyY",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 69",
+          "GUID": "95091d26-c695-4877-a62c-8f81a9e16344",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyZ",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 70",
+          "GUID": "eb80a22e-0686-40a7-a81a-6b9fa2927a3b",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeySlash",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 71",
+          "GUID": "6f25aa10-5894-4093-acc9-42f982fbe7bc",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeySpace",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 72",
+          "GUID": "c12624c9-1972-492c-9ca8-ef30b9e93b9c",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyOverfly",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 73",
+          "GUID": "79be50a1-5b47-4fb4-9bfb-d90e04902d04",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "button": {
+            "onPress": {
+              "Type": "XplaneInputAction",
+              "InputType": "Command",
+              "Path": "AirbusFBW/MCDU1KeyClear",
+              "Expression": ""
+            },
+            "onRelease": null,
+            "onLongRelease": null,
+            "onHold": null,
+            "LongReleaseDelay": 350,
+            "HoldDelay": 350,
+            "RepeatDelay": 0
+          },
+          "DeviceType": "Button",
+          "DeviceName": "Button 74",
+          "GUID": "87b0fbf2-56ed-4beb-a2da-741d746e6e2f",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "WINWING MCDU-32-CAPTAIN / JS-480fe100-7c30-11f0-8001-444553540000",
+          "Preconditions": [
+            {
+              "PreconditionType": "none",
+              "PreconditionRef": null,
+              "PreconditionSerial": null,
+              "PreconditionPin": null,
+              "PreconditionOperand": "=",
+              "PreconditionValue": null,
+              "PreconditionLogic": "and",
+              "PreconditionActive": true
+            }
+          ],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "RELEASE",
+          "Value": " ",
+          "Status": {}
+        },
+        {
+          "DeviceType": "-",
+          "DeviceName": null,
+          "GUID": "5a5e63f9-1d43-41bb-a950-63a82a14dd39",
+          "Active": true,
+          "Name": "New Input Config",
+          "Type": "InputConfigItem",
+          "ModuleSerial": "",
+          "Preconditions": [],
+          "Modifiers": {
+            "Items": []
+          },
+          "ConfigRefs": [],
+          "RawValue": "",
+          "Value": "",
+          "Status": {}
+        }
+      ]
+    }
+  ]
+}
